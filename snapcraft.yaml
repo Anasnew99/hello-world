@@ -1,0 +1,14 @@
+name: my-hello-world-app
+version: 1.0.0
+summary: Hello World APP.
+description: A simple Hello World APP.
+confinement: strict
+base: core18
+parts:
+  my-hello-world-app:
+    plugin: dump
+    source: hello-world.tar.gz
+
+apps:
+  my-hello-world-app:
+    command: ./hello-world
