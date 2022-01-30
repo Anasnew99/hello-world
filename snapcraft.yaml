@@ -7,7 +7,7 @@ base: core18
 parts:
   my-hello-world-app:
     plugin: dump
-    source: hello-world.tar.gz
+    source: hello.tar.gz
 
 apps:
   my-hello-world-app:
